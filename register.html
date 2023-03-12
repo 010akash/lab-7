@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .registerBox {
+            margin-top: 2em;
+            padding: 1em;
+            background-color: #00b4d8;
+            width: 20%;
+            height: 65%;
+            border-radius: 1.5em;
+            /* height: 50%; */
+        }
+        input {
+            padding: .5em 0px;
+            width: 98%;
+        }
+        #registerBtn{
+            padding: .5em 1.5em;
+            border-radius: .4em;
+            border: 1px solid black;
+            margin-top: .5em;
+            cursor: pointer;
+            font-weight: bold;
+            color: white;
+            border: 1.5px solid white;
+            background: none;
+        }
+        p{
+            margin: 10px 0px;
+        }
+        .registerBox a{
+            text-decoration: none;
+            color: rgb(0, 0, 255);
+        }
+        .registerBox h1{
+            margin-bottom: 1em;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="home">
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li><a href="/">HOME</a></li>
+                <li>
+                    <h2>Collection of Data</h2>
+                </li>
+
+            </ul>
+        </nav>
+        <div class="bottomContainer">
+
+            <div class="registerBox">
+                <h1 style="text-align: center; border-bottom: 2px solid white;">Register here </h1>
+                <form action="/register" method="post">
+                    <label for="name">Full Name</label><br>
+                    <input type="text" name="fullname" id="name" required><br>
+                    <label for="email">Email id</label><br>
+                    <input type="email" name="email" id="email" required><br>
+                    <label for="dob">Date of Birth</label><br>
+                    <input type="date" name="dob" id="dob" required><br>
+                    <label for="password">Password</label><br>
+                    <input type="password" name="password" id="password" required><br>
+                    <label for="password">Confirm Password</label><br>
+                    <input type="Password" name="conPassword" id="conPassword" required>
+                    <button type="submit" id="registerBtn" onclick="ragister()">Register</button>
+                </form>
+                <p style="text-align: center;">Already have an account? <a href="/login.html">Login here</a></p>
+            </div>
+        </div>
+
+    </section>
+    <script src="/script.js"></script>
+</body>
+
+</html>

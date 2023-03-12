@@ -1,0 +1,170 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.home{
+    padding-top: .5em;
+    background-color:#ECF2FF;
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    background-color: #00b4d8;
+    height: 10%;
+    width: 98%;
+    border-radius: 2rem;
+    color: white;
+   
+}
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    color: white;
+    
+}
+.nav-list li{
+    list-style: none;
+    color: white;
+    
+    
+}
+.nav-list li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    color: white;
+    
+}
+
+
+.contentBox{
+    margin-top: 1em;
+    color: #ECF2FF;
+    border-radius: .5em;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    /* height: 80%;
+    border: 1px solid black; */
+    
+}
+.buttons{
+    display: flex;
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 10%;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn{
+    font-size: 1em;
+    font-weight: bold;
+    color: #ECF2FF;
+    background-color: #00b4d8;
+    border: none;
+    padding: .5em 1em;
+    border-radius: .5em;
+    cursor: pointer;
+}
+.content{
+
+    width: 100%;
+    /* height: 90%; */
+    background-color: #00b4d8;
+}
+
+
+
+
+
+/* Login page ###################################### */
+
+.bottomContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.loginBox{
+    border-radius: 1em;
+    margin-top: 1em;
+    background-color: #00b4d8;
+    width: 20%;
+    height: 60%;
+    color: white;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+    /* height: 10%; */
+    color: white;
+    width: 100%;
+    /* margin: em 0px; */
+    border-bottom: 2px solid rgb(253, 251, 251);
+}
+.head h1{
+    margin: 1em 0px;
+}
+.inputBox{
+    margin-left: .3em;
+    /* height: 60%; */
+    width: 98%;
+    padding: 1em 0px;
+    /* border: 1px solid rgb(211, 17, 17); */
+    color: white;
+    
+} 
+#loginBtn{
+    width: 98%;
+    text-align: center;
+    margin-top: 1em;
+    font-size: 1em;
+    font-weight: bold;
+    padding: .3em 0px;
+    border-radius: .5em;
+    border: 1px solid rgb(252, 249, 249);
+    cursor: pointer;
+    background:none;
+    color: white;
+   
+}
+.inputBox input{
+    width: 95%;
+    height: 2em;
+}
+
+
+
+.bottomBox{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* height: 30%; */
+    width: 100%;
+    /* border: 1px solid rgb(32, 7, 248); */
+}
+.bottomBox a{
+    text-decoration: none;
+    color: rgb(47, 0, 255);
+    margin-top: 1em;
+    
+}
+.bottomBox p{
+    /* margin: .5em 0px; */
+    padding: 2em;
+    text-align: center;
+}
+
+/* ragistration page ###################################### */
+
+
+
